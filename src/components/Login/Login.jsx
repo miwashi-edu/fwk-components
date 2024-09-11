@@ -7,7 +7,7 @@ const Login = () => {
         <>
             <UserAtom />
             <PasswordAtom />
-            <LogintButtonAtom />
+            <LogintButtonAtom title='Login'/>
         </>
     )
 }

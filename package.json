@@ -1,6 +1,6 @@
 {
-  "name": "fwk-components",
-  "private": true,
+  "name": "@miwashi/fwk-components",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "main": "./src/index.js",
@@ -44,5 +44,8 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

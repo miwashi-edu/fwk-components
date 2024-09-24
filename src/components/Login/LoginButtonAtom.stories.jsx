@@ -7,10 +7,12 @@ export default {
 
 export const Default = {
     args: {
-        title: 'Knappen'
+        title: 'Nisse'
     }
 }
 
-export const MissingTitle = {
-    
+export const NoTitle = {
+    args: {
+        
+    }
 }

@@ -1,8 +1,9 @@
-const LogintButtonAtom = ({title}) => {
+const LogintButtonAtom = ({title, children}) => {
+
     if(!title){
-        return (<div>Copoment must have title!</div>)
+        console.error('title is missing in Login Button Component!');
     }
-    
+
     return (
         <button>{title}</button>
     );
